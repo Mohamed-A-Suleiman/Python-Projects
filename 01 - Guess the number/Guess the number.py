@@ -18,7 +18,6 @@ def check(n):
         print('YOU WON, CONGRATS!!')
 
 def start_game():
-    print(right_num)
     while True:
         if won == 1:
             break
