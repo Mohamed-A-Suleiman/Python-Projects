@@ -18,6 +18,7 @@ def check(n):
         print('YOU WON, CONGRATS!!')
 
 def start_game():
+    print('Guess a number between 0 & 20!!')
     while True:
         if won == 1:
             break
@@ -58,7 +59,7 @@ while True:
     if action == 1:
         won = 0
         tries = 3
-        right_num = randint(0,100)
+        right_num = randint(0,20)
         start_game()
     elif action == 2:
         try: show_history()
